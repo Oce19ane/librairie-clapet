@@ -492,6 +492,18 @@ button {
   text-align: right;
 }
 
+.colonne-image {
+  min-width: 350px;
+}
+
+
+.colonnes {
+  display: flex;
+}
+
+
+
+
 
 
 
