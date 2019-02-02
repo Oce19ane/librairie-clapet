@@ -266,6 +266,7 @@ button {
 
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
 }
 
 .nav-main__item {
@@ -286,14 +287,17 @@ button {
 /**
 * separator
 */
+
 .separator {
   display: block;
   margin: 50px auto;
-  width: 200px;
-  height: 1px;
+  width: 193.2px;
+  height: 51.8px;
   border: none;
-  background-color: #d9d9d9;
+  background-color: white;
 }
+
+;
 
 
 /**
@@ -302,11 +306,15 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  /*margin-left : 120px; */
+  /* margin-right : 120px; */
 }
 
 .honey-pot {
   display: inline-block;
-  margin: 0 30px 35px 30px;
+  /*margin: 0 30px 35px 30px; */
   text-align: center;
 }
 
@@ -326,6 +334,7 @@ button {
 
 .honey-pot__thumbnail:hover {
   filter: grayscale(60%);
+  margin: 20px;
 }
 
 .honey-pot__thumbnail img {
@@ -499,7 +508,9 @@ button {
 
 .colonnes {
   display: flex;
-}
+} 
+
+
 
 
 
