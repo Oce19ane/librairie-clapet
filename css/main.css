@@ -6,12 +6,12 @@
 */
 
 body {
-  max-width: 960px;
+  max-width: 1440px;
   margin: auto;
-  border-bottom: 5px solid #d9d9d9;
-  padding-bottom: 75px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  /* border-bottom: 5px solid #d9d9d9; */
+  /*padding-bottom: 75px;*/
+  font-family: 'WorkSans', sans-serif;
+  /* font-weight: 400; */
   color: #303044;
 }
 
@@ -41,13 +41,16 @@ h1 {
 h2 {
   margin: 25px 0;
   font-size: 3.5em;
+  font-weight: 200; 
+  font-family: Montserrat;
+  font-size: 64px;
   font-weight: 200;
 }
 
 h3 {
   margin: 25px 0;
   font-size: 2.6em;
-  font-weight: 200;
+  font-weight: 200; 
 }
 
 h4 {
@@ -196,8 +199,9 @@ button {
 }
 
 .chapo {
+  padding-top: 60px;
   font-size: 25px;
-  font-family: 'Work Sans, sans-serif;
+  /*font-family: 'WorkSans';*/
   font-weight: 400;
   text-align: center;
 }
@@ -251,14 +255,14 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-size: 64px;
   margin-bottom: 32;
   font-weight:700;
 }
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
+  font-size: 42px;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
 }
@@ -267,10 +271,20 @@ button {
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
   text-align: center;
+  height: 56px;
 }
 
 .nav-main__item {
-  display: inline-block;
+  display: inline-block;width: 218px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+
 }
 
 .nav-main__link {
@@ -284,38 +298,40 @@ button {
 }
 
 
+
+
 /**
 * separator
 */
 
 .separator {
   display: block;
-  margin: 50px auto;
+  margin: 60px;
   width: 193.2px;
   height: 51.8px;
   border: none;
   background-color: white;
 }
 
-;
 
 
-/**
-* honey-pot
-*/
+
 
 .honey-pot-list {
-  text-align: center;
+  background-color: rgb(250,235,215, 0);
+  background-size: center;
+
   display: flex;
-  justify-content: space-between;
-  /*margin-left : 120px; */
-  /* margin-right : 120px; */
-}
+  justify-content: space-around;
+  
+
+} 
 
 .honey-pot {
-  display: inline-block;
-  /*margin: 0 30px 35px 30px; */
-  text-align: center;
+  margin: auto;
+    
+  /* margin: 0 30px 35px 30px; */
+ text-align: center;  
 }
 
 .honey-pot__link {
@@ -326,8 +342,8 @@ button {
 }
 
 .honey-pot__thumbnail {
-  position: relative;
-  display: inline-block;
+  /*position: relative;
+  display: inline-block;*/
   margin-bottom: 10px;
   filter: grayscale(0);
 }
@@ -338,7 +354,7 @@ button {
 }
 
 .honey-pot__thumbnail img {
-  display: block;
+ /* display: block;*/
 }
 
 .honey-pot__title {
@@ -485,7 +501,7 @@ button {
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 75px;
 }
 
 
@@ -513,7 +529,29 @@ button {
 
 
 
+.illu-large {
+  width: 80%;
+}
 
+
+.map {
+  width: 1439px;
+  height: 731px;
+  object-fit: contain;
+}
+
+.Nous-trouver {
+  width: 393px;
+  height: 78px;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+  }
 
 
 
