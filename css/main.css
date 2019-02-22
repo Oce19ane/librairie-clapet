@@ -306,11 +306,12 @@ button {
 
 .separator {
   display: block;
-  margin: 60px;
-  width: 193.2px;
-  height: 51.8px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 193px;
+  height: 1px;
   border: none;
-  background-color: white;
+  background-color: black;
 }
 
 
@@ -556,12 +557,14 @@ button {
   min-width: 50%;
 }
 
+.colonne-image-2 {
+min-width: 30%;
+} 
+
 
 .colonnes {
   display: flex;
 } 
-
-
 
 
 .illu-large {
