@@ -444,7 +444,7 @@ button {
 .news-list {
   display: grid;
   grid-gap: 35px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
 }
@@ -457,6 +457,24 @@ button {
   grid-column: span 1;
 }
 
+.news-illu-gauche {
+  border: 5px solid none;
+  display: flex;
+  grid-column: span 2;
+} 
+
+.news-xl {
+  grid-column: span 4;
+} 
+
+
+.news-xl .news__link {
+  display: flex;
+}
+
+.news-xl .news__thumbnail {
+  min-width: 50%
+}
 /**
 * -----------
 * Trumps
